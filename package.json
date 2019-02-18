@@ -1,6 +1,15 @@
 {
   "name": "ng-custom-button",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Button lib for Angular 7",
+  "author": {
+    "name": "Felipe Leonardi D'Amaro",
+    "email": "felipedamaro@gmail.com"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/felipeleonardi/ng-custom-button"
+  },
   "peerDependencies": {
     "@angular/common": "^7.1.0",
     "@angular/core": "^7.1.0"
