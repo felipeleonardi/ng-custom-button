@@ -1,0 +1,109 @@
+.btn {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+}
+.primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    &:hover {
+        background-color: #0069d9;
+        border-color: #0062cc
+    }
+}
+.secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    &:hover {
+        color: #fff;
+        background-color: #5a6268;
+        border-color: #545b62;
+    }
+}
+.success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    &:hover {
+        color: #fff;
+        background-color: #218838;
+        border-color: #1e7e34;
+    }
+}
+.danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    &:hover {
+        color: #fff;
+        background-color: #c82333;
+        border-color: #bd2130;
+    }
+}
+.warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    &:hover {
+        color: #212529;
+        background-color: #e0a800;
+        border-color: #d39e00;
+    }
+}
+.info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    &:hover {
+        color: #fff;
+        background-color: #138496;
+        border-color: #117a8b;
+    }
+}
+.light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    &:hover {
+        color: #212529;
+        background-color: #e2e6ea;
+        border-color: #dae0e5;
+    }
+}
+.dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    &:hover {
+        color: #fff;
+        background-color: #23272b;
+        border-color: #1d2124;
+    }
+}
+
+.small {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+.medium {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.large {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
