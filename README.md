@@ -8,7 +8,7 @@
 ## Usage
 ```javascript
 // Import library module
-import { NgCustomButtonModule } from 'ngx-spinner';
+import { NgCustomButtonModule } from 'ng-custom-button';
 
 @NgModule({
 	imports: [
